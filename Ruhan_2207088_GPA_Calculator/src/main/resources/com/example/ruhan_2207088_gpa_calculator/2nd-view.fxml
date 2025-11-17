@@ -17,6 +17,6 @@
       <Button fx:id="addButton" layoutX="270.0" layoutY="197.0" mnemonicParsing="false" onAction="#addCourse" prefHeight="36.0" prefWidth="71.0" text="Add" />
       <Button fx:id="calculateGPAButton" layoutX="254.0" layoutY="288.0" mnemonicParsing="false" onAction="#calculateGPA" prefHeight="51.0" prefWidth="102.0" text="Calculate GPA" />
       <TextField fx:id="totalCreditField" layoutX="231.0" layoutY="14.0" promptText="Total Course Credit" />
-      <Label fx:id="statusLabel" layoutX="291.0" layoutY="385.0" text="Label" />
+      <Label fx:id="statusLabel" layoutX="240.0" layoutY="384.0" text="Label" />
    </children>
 </AnchorPane>

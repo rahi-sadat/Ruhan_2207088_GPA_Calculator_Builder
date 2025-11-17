@@ -106,7 +106,7 @@ public class SecondViewController {
             double currentTotal = courseList.stream().mapToDouble(Course::getCredit).sum();
             int courseCount = courseList.size();
 
-            statusLabel.setText(String.format("Courses Added: %d | Current Credit: %.2f / %.2f",
+            statusLabel.setText(String.format("Courses Added: %d | Current total Credit earned : %.2f / %.2f",
                     courseCount, currentTotal, requiredTotal));
 
             calculateGPAButton.setDisable(currentTotal != requiredTotal);
