@@ -6,11 +6,11 @@
 <?import javafx.scene.layout.VBox?>
 
 <VBox alignment="CENTER" prefHeight="310.0" prefWidth="369.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/25" fx:controller="com.example.ruhan_2207088_gpa_calculator.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-  </padding>
-   <Label text="Welcome to GPA Calculator " />
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Welcome to GPA Calculator " />
 
-  <Label fx:id="welcomeText" />
-  <Button onAction="#onHelloButtonClick" text="Start GPA Calculator" />
+    <Label fx:id="welcomeText" />
+    <Button onAction="#onHelloButtonClick" text="Start GPA Calculator" />
 </VBox>
