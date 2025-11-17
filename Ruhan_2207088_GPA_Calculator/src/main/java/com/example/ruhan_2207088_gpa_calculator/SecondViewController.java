@@ -93,6 +93,8 @@ public class SecondViewController {
             gradeComboBox.setValue(null);
 
             checkCreditTotal();
+            showAlert(Alert.AlertType.INFORMATION, "Success",
+                    String.format("Course '%s' (%.2f credits) added successfully!", code, newCredit));
 
         } catch (NumberFormatException e) {
             showAlert(Alert.AlertType.ERROR, "Input Error", "Course Credit and total course credit must be valid numbers.");
@@ -110,6 +112,7 @@ public class SecondViewController {
                     courseCount, currentTotal, requiredTotal));
 
             calculateGPAButton.setDisable(currentTotal != requiredTotal);
+
 
         } catch (NumberFormatException e) {
             statusLabel.setText("Courses Added: " + courseList.size() + " | Enter valid total credit!");

@@ -16,7 +16,7 @@
       <ComboBox fx:id="gradeComboBox" layoutX="409.0" layoutY="129.0" prefWidth="150.0" promptText="Grade" />
       <Button fx:id="addButton" layoutX="270.0" layoutY="197.0" mnemonicParsing="false" onAction="#addCourse" prefHeight="36.0" prefWidth="71.0" text="Add" />
       <Button fx:id="calculateGPAButton" layoutX="254.0" layoutY="288.0" mnemonicParsing="false" onAction="#calculateGPA" prefHeight="51.0" prefWidth="102.0" text="Calculate GPA" />
-      <TextField fx:id="totalCreditField" layoutX="231.0" layoutY="14.0" promptText="Total Course Credit" />
+      <TextField fx:id="totalCreditField" layoutX="218.0" layoutY="14.0" prefHeight="26.0" prefWidth="184.0" promptText="Total Courses Credit (Semester)" />
       <Label fx:id="statusLabel" layoutX="240.0" layoutY="384.0" text="Label" />
    </children>
 </AnchorPane>

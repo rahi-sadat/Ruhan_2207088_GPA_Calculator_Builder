@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="rootVBox" alignment="TOP_CENTER" prefHeight="500.0" prefWidth="800.0" spacing="10.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ruhan_2207088_gpa_calculator.ResultController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+
+        <TableView fx:id="courseTable" prefHeight="350.0" prefWidth="760.0">
+            <columns>
+                <TableColumn fx:id="nameColumn" prefWidth="210.0" text="Course Name" />
+                <TableColumn fx:id="codeColumn" prefWidth="100.0" text="Code" />
+                <TableColumn fx:id="creditColumn" prefWidth="75.0" text="Credit" />
+                <TableColumn fx:id="teacher1Column" prefWidth="150.0" text="Teacher 1" />
+                <TableColumn fx:id="teacher2Column" prefWidth="150.0" text="Teacher 2" />
+                <TableColumn fx:id="gradeColumn" prefWidth="75.0" text="Grade" />
+            </columns>
+        </TableView>
+
+        <Label text="Your Final GPA:">
+            <font>
+                <Font size="18.0" />
+            </font>
+            <VBox.margin>
+                <Insets top="15.0" />
+            </VBox.margin>
+        </Label>
+        <Label fx:id="gpaLabel" text="0.00">
+            <font>
+                <Font name="System Bold" size="36.0" />
+            </font>
+        </Label>
+    </children>
+</VBox>
+
