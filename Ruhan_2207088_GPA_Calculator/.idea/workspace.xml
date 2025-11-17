@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6231d06b-03a8-47ae-a18d-24415860db48" name="Changes" comment="3rd commit --- result fxml added">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ruhan_2207088_gpa_calculator/SecondViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ruhan_2207088_gpa_calculator/SecondViewController.java" afterDir="false" />
+    <list default="true" id="6231d06b-03a8-47ae-a18d-24415860db48" name="Changes" comment="4th commit--alert added">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ruhan_2207088_gpa_calculator/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ruhan_2207088_gpa_calculator/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ruhan_2207088_gpa_calculator/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ruhan_2207088_gpa_calculator/result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ruhan_2207088_gpa_calculator/result.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -46,11 +56,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
+    "Application.Launcher.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Ruhan_2207088_GPA_Calculator_Builder/Ruhan_2207088_GPA_Calculator/pom.xml",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763382211866</updated>
-      <workItem from="1763382217125" duration="3255000" />
+      <workItem from="1763382217125" duration="6021000" />
     </task>
     <task id="LOCAL-00001" summary="3rd commit --- result fxml added">
       <option name="closed" value="true" />
@@ -84,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763384778672</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="4th commit--alert added">
+      <option name="closed" value="true" />
+      <created>1763385883299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763385883299</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3rd commit --- result fxml added" />
-    <option name="LAST_COMMIT_MESSAGE" value="3rd commit --- result fxml added" />
+    <MESSAGE value="4th commit--alert added" />
+    <option name="LAST_COMMIT_MESSAGE" value="4th commit--alert added" />
   </component>
 </project>

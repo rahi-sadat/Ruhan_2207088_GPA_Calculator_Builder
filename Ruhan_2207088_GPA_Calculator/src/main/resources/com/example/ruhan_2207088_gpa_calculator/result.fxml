@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox fx:id="rootVBox" alignment="TOP_CENTER" prefHeight="500.0" prefWidth="800.0" spacing="10.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ruhan_2207088_gpa_calculator.ResultController">
+<VBox fx:id="rootVBox" alignment="TOP_CENTER" prefHeight="500.0" prefWidth="800.0" spacing="10.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ruhan_2207088_gpa_calculator.ResultController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
@@ -26,17 +26,16 @@
 
         <Label text="Your Final GPA:">
             <font>
-                <Font size="18.0" />
+                <Font size="13.0" />
             </font>
             <VBox.margin>
                 <Insets top="15.0" />
             </VBox.margin>
         </Label>
-        <Label fx:id="gpaLabel" text="0.00">
+        <Label fx:id="gpaLabel" text="0.00" textFill="#df0808">
             <font>
-                <Font name="System Bold" size="36.0" />
+                <Font size="36.0" />
             </font>
         </Label>
     </children>
 </VBox>
-
