@@ -5,20 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29b4842a-2177-4be8-8e3e-b63d6aa0152b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/ResultController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/SecondViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/DatabaseManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/ResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/ResultController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/SecondViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/SecondViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/resources/com/example/ruhan_2207088_gpa_calculator/2nd-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/resources/com/example/ruhan_2207088_gpa_calculator/2nd-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/resources/com/example/ruhan_2207088_gpa_calculator/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/resources/com/example/ruhan_2207088_gpa_calculator/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/resources/com/example/ruhan_2207088_gpa_calculator/result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/resources/com/example/ruhan_2207088_gpa_calculator/result.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,23 +55,94 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Ruhan_2207088_GPA_Calculator_Builder&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Ruhan_2207088_GPA_Calculator_Builder",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite",
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Ruhan_2207088_GPA_Calculator_Builder" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Ruhan_2207088_GPA_Calculator_Builder" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Ruhan_2207088_GPA_Calculator_Builder" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="Ruhan_2207088_GPA_Calculator_Builder" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Ruhan_2207088_GPA_Calculator_Builder" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,6 +160,7 @@
       <updated>1763324786353</updated>
       <workItem from="1763324787929" duration="4194000" />
       <workItem from="1763371458217" duration="4789000" />
+      <workItem from="1763987591077" duration="10727000" />
     </task>
     <servers />
   </component>

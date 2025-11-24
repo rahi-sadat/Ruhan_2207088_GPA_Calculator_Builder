@@ -8,15 +8,17 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ruhan_2207088_gpa_calculator.SecondViewController">
    <children>
-      <TextField fx:id="courseNameField" layoutX="34.0" layoutY="70.0" promptText="Course Name " />
-      <TextField fx:id="courseCodeField" layoutX="231.0" layoutY="70.0" promptText="Course Code " />
-      <TextField fx:id="courseCreditField" layoutX="409.0" layoutY="70.0" promptText="Course Credit " />
-      <TextField fx:id="teacher1Field" layoutX="32.0" layoutY="129.0" promptText="Teacher 1 Name" />
-      <TextField fx:id="teacher2Field" layoutX="231.0" layoutY="129.0" promptText="Teacher 2 Name" />
-      <ComboBox fx:id="gradeComboBox" layoutX="409.0" layoutY="129.0" prefWidth="150.0" promptText="Grade" />
-      <Button fx:id="addButton" layoutX="270.0" layoutY="197.0" mnemonicParsing="false" onAction="#addCourse" prefHeight="36.0" prefWidth="71.0" text="Add" />
-      <Button fx:id="calculateGPAButton" layoutX="254.0" layoutY="288.0" mnemonicParsing="false" onAction="#calculateGPA" prefHeight="51.0" prefWidth="102.0" text="Calculate GPA" />
+      <TextField fx:id="courseNameField" layoutX="34.0" layoutY="137.0" promptText="Course Name " />
+      <TextField fx:id="courseCodeField" layoutX="230.0" layoutY="137.0" promptText="Course Code " />
+      <TextField fx:id="courseCreditField" layoutX="408.0" layoutY="137.0" promptText="Course Credit " />
+      <TextField fx:id="teacher1Field" layoutX="34.0" layoutY="195.0" promptText="Teacher 1 Name" />
+      <TextField fx:id="teacher2Field" layoutX="231.0" layoutY="195.0" promptText="Teacher 2 Name" />
+      <ComboBox fx:id="gradeComboBox" layoutX="408.0" layoutY="195.0" prefWidth="150.0" promptText="Grade" />
+      <Button fx:id="addButton" layoutX="264.0" layoutY="251.0" mnemonicParsing="false" onAction="#addCourse" prefHeight="36.0" prefWidth="71.0" text="Add" />
+      <Button fx:id="calculateGPAButton" layoutX="254.0" layoutY="325.0" mnemonicParsing="false" onAction="#calculateGPA" prefHeight="51.0" prefWidth="102.0" text="Calculate GPA" />
       <TextField fx:id="totalCreditField" layoutX="218.0" layoutY="14.0" prefHeight="26.0" prefWidth="184.0" promptText="Total Courses Credit (Semester)" />
-      <Label fx:id="statusLabel" layoutX="240.0" layoutY="384.0" text="Label" />
+      <Label fx:id="statusLabel" layoutX="240.0" layoutY="408.0" text="Label" />
+      <TextField fx:id="studentNameField" layoutX="34.0" layoutY="71.0" prefHeight="26.0" prefWidth="346.0" promptText="Student Name" />
+      <TextField fx:id="studentRollField" layoutX="409.0" layoutY="72.0" promptText="Student Roll" />
    </children>
 </AnchorPane>

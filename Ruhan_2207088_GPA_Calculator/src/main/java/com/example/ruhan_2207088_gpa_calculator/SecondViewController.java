@@ -23,6 +23,8 @@ public class SecondViewController {
 
 
     @FXML private TextField totalCreditField;
+    @FXML private TextField studentNameField;
+    @FXML private TextField studentRollField;
     @FXML private TextField courseNameField;
     @FXML private TextField courseCodeField;
     @FXML private TextField courseCreditField;
@@ -122,7 +124,12 @@ public class SecondViewController {
 
     @FXML
     private void calculateGPA(ActionEvent event) {
-
+        String studentName = studentNameField.getText().trim();
+        String studentRoll = studentRollField.getText().trim();
+        if (studentName.isEmpty() || studentRoll.isEmpty()) {
+            showAlert(Alert.AlertType.ERROR, "Input Error", "Please enter the Student Name and Roll.");
+            return;
+        }
         double totalPoints = 0;
         double totalCredits = 0;
         for (Course course : courseList) {
@@ -142,7 +149,8 @@ public class SecondViewController {
 
 
             ResultController resultController = loader.getController();
-            resultController.setResultData(finalGPA, courseList);
+            resultController.setResultData(studentName,
+                    studentRoll,finalGPA, courseList);
 
             Stage stage = (Stage) ((Button) event.getSource()).getScene().getWindow();
             stage.setScene(new Scene(root));

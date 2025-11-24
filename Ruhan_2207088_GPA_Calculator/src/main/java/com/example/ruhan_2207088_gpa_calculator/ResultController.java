@@ -2,14 +2,25 @@
 package com.example.ruhan_2207088_gpa_calculator;
 
 import javafx.collections.FXCollections;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+
+import java.io.IOException;
 import java.util.List;
 
 public class ResultController {
+    @FXML private Label studentNameLabel;
+    @FXML private Label studentRollLabel;
     @FXML private TableView<Course> courseTable;
     @FXML private TableColumn<Course, String> nameColumn;
     @FXML private TableColumn<Course, String> codeColumn;
@@ -21,10 +32,27 @@ public class ResultController {
 
     @FXML private Label gpaLabel;
 
+    @FXML
+    private void addNewStudent(ActionEvent event) {
+        try {
 
-    public void setResultData(double gpa, List<Course> courses) {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("2nd-view.fxml"));
+            AnchorPane root = loader.load();
 
 
+            Stage stage = (Stage) ((Button) event.getSource()).getScene().getWindow();
+            stage.setScene(new Scene(root));
+            stage.setTitle("GPA Builder");
+            stage.show();
+        } catch (IOException e) {
+            System.err.println("Error loading 2nd-view.fxml: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+    public void setResultData(String name,String roll,double gpa, List<Course> courses) {
+
+        studentNameLabel.setText("Student Name: " + name);
+        studentRollLabel.setText("Student Roll: " + roll);
         gpaLabel.setText(String.format("%.2f", gpa));
 
 
