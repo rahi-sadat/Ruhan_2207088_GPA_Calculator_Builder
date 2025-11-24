@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29b4842a-2177-4be8-8e3e-b63d6aa0152b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/DatabaseManager.java" afterDir="false" />
+    <list default="true" id="29b4842a-2177-4be8-8e3e-b63d6aa0152b" name="Changes" comment="7th commit--&gt;necessary changes in 2nd-view.fxml and database connection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/ResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/ResultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/SecondViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/SecondViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/resources/com/example/ruhan_2207088_gpa_calculator/2nd-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/resources/com/example/ruhan_2207088_gpa_calculator/2nd-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/resources/com/example/ruhan_2207088_gpa_calculator/result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/resources/com/example/ruhan_2207088_gpa_calculator/result.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,11 +148,32 @@
       <updated>1763324786353</updated>
       <workItem from="1763324787929" duration="4194000" />
       <workItem from="1763371458217" duration="4789000" />
-      <workItem from="1763987591077" duration="10727000" />
+      <workItem from="1763987591077" duration="12686000" />
     </task>
+    <task id="LOCAL-00001" summary="7th commit--&gt;necessary changes in 2nd-view.fxml and database connection">
+      <option name="closed" value="true" />
+      <created>1764004539727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764004539727</updated>
+    </task>
+    <task id="LOCAL-00002" summary="7th commit--&gt;necessary changes in 2nd-view.fxml and database connection">
+      <option name="closed" value="true" />
+      <created>1764004584099</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764004584099</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="7th commit--&gt;necessary changes in 2nd-view.fxml and database connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="7th commit--&gt;necessary changes in 2nd-view.fxml and database connection" />
   </component>
 </project>
