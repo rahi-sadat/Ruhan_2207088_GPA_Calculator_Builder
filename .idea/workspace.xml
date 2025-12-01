@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29b4842a-2177-4be8-8e3e-b63d6aa0152b" name="Changes" comment="7th commit--&gt;necessary changes in 2nd-view.fxml and database connection">
+    <list default="true" id="29b4842a-2177-4be8-8e3e-b63d6aa0152b" name="Changes" comment="9th commit">
+      <change afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/DataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/StudentResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/resources/com/example/ruhan_2207088_gpa_calculator/data-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6ee0e4c-e959-4767-a6f1-c30b47aaa8ff.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6ee0e4c-e959-4767-a6f1-c30b47aaa8ff.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/DatabaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/DatabaseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/ResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/java/com/example/ruhan_2207088_gpa_calculator/ResultController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/resources/com/example/ruhan_2207088_gpa_calculator/result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Ruhan_2207088_GPA_Calculator/src/main/resources/com/example/ruhan_2207088_gpa_calculator/result.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -43,32 +56,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Ruhan_2207088_GPA_Calculator_Builder",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "database.query.execution",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Ruhan_2207088_GPA_Calculator_Builder&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ruhan_2207088_gpa_calculator.Launcher" />
+      <module name="Ruhan_2207088_GPA_Calculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Ruhan_2207088_GPA_Calculator_Builder" />
       <method v="2">
@@ -148,7 +169,10 @@
       <updated>1763324786353</updated>
       <workItem from="1763324787929" duration="4194000" />
       <workItem from="1763371458217" duration="4789000" />
-      <workItem from="1763987591077" duration="12686000" />
+      <workItem from="1763987591077" duration="22532000" />
+      <workItem from="1764045793173" duration="2386000" />
+      <workItem from="1764264688145" duration="78000" />
+      <workItem from="1764604292327" duration="5766000" />
     </task>
     <task id="LOCAL-00001" summary="7th commit--&gt;necessary changes in 2nd-view.fxml and database connection">
       <option name="closed" value="true" />
@@ -166,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764004584099</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="9th commit">
+      <option name="closed" value="true" />
+      <created>1764006412343</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764006412344</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +206,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="7th commit--&gt;necessary changes in 2nd-view.fxml and database connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="7th commit--&gt;necessary changes in 2nd-view.fxml and database connection" />
+    <MESSAGE value="9th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="9th commit" />
   </component>
 </project>
